@@ -5,9 +5,12 @@
     "lucide-react": "^0.474.0",
     "tailwindcss-animate": "^1.0.7"
   },
-  "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
-  } 
+  
+    "scripts": {
+      "build": "cd fronttally && npm install && npm run build",
+      "start": "cd fronttally && npm run start",
+      "dev": "cd fronttally && npm run dev"
+    }
+  
+  
 }
